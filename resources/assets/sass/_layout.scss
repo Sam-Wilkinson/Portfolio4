@@ -1,0 +1,13 @@
+#content{
+    margin-left: $sidebar-size;
+    height: 100%;
+    &.bg-home{
+        background-image: url(https://media.giphy.com/media/A06UFEx8jxEwU/giphy.gif);
+    }
+    .header-size{
+        height: 10%;
+    }
+    .content-size{
+        height: 90%;
+    }
+}

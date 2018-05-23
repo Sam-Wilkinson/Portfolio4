@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'viewsController@home')->name('home');
+Route::get('/work', 'viewsController@work')->name('work');
+Route::get('/skills', 'viewsController@skills')->name('skills');
+Route::get('/contact', 'viewsController@contact')->name('contact');
+
+?>
